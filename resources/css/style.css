@@ -26,6 +26,7 @@ h4{
   height: 69px;
   border-bottom: 1px solid seashell;
   margin-top: -8px;
+  margin-left: -8px;
   z-index: 10;
 }
 
@@ -36,7 +37,6 @@ h4{
 
 #hdr-links{
   display: inline-flex;
-  padding: 10px;
 }
 
 #hdr-links a {
@@ -66,4 +66,35 @@ h4{
 #Mission .text{
   background-color: black;
   width: inherit;
+}
+
+.Tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-sorts{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#lastrow{
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tea-sort{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.tea-image{
+  width: inherit;
+  height: 200px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
