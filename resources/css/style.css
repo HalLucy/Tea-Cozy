@@ -94,6 +94,13 @@ h3{
 #contact h5{
   margin-top: 0;
   line-height: 300%;
+  height: 200px;
+}
+
+#footer{
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
 }
 
 .location{
